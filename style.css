@@ -1,0 +1,210 @@
+.main-container{
+    background-color: #112D4E;
+    color: #F9F7F7;
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 60%;
+    padding-top: 100px;
+}
+#effel>img{
+    width: 200px;
+}
+.box{
+    border: 5px solid #F9F7F7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+#name{
+    text-align: center;
+    font-family: 'Apricot' , sans-serif;
+    flex: 1;
+}
+h1{
+    font-size: 6rem;
+    font-family: 'Apricot' , sans-serif; 
+}
+.boxone{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+#island>img{
+    width: 350px;
+}
+#island{
+    flex: 1;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'karmal', sono;
+}
+#body-section{
+    background-color: #F9F7F7;
+    padding: 50px;
+    text-align: center;
+}
+#profile>img{
+    border: 10px solid #112D4E;
+    height: 150px;
+    border-radius: 50%;
+}
+p{
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.experience{
+    margin: auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.experience-one{
+    margin-top: 50px;
+    flex-basis: 350px;
+    display: flex;
+    gap: 20px;
+}
+.experience-one > .discription{
+    flex: 1;
+    text-align: left;
+}
+.experience-one > .svg{
+    border-radius: 10px;
+    background-color: #6baaf1;
+    width: 50px;
+    height: 50px;
+}
+.svg > img{
+    padding: 5px;
+    width: 100%;
+}
+h5{
+    color: #112D4E;
+    font-weight:600;
+    font-family: 'karmal', sono;
+}
+li{
+    font-family: 'Merriweather', serif;
+}
+.skill-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 0px;
+}
+.grid-item > div > img{
+    width: 250px;
+}
+span {
+    font-weight: 600;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+#bottom-section{
+    background-color: #112D4E;
+    color:#F9F7F7;
+    text-align: center;
+}
+.outro{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+}
+h6{
+    font-family: 'karmal', sono;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    grid-template-rows: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+a{ 
+    color: #F9F7F7;
+    text-decoration: none;
+}
+a:hover{
+    color: #6baaf1;
+}
+.copyright{
+    padding-bottom: 30px;
+}
+@media (max-width:1006px){
+    .top-container{
+        padding-top: 50px;
+    }
+    .box{
+        width: fit-content;
+        padding: 20px;
+    }
+    #effel>img{
+        display: none;
+    }
+    #island>img{
+        display: none;
+    }
+    .boxone{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .intro{
+        width: 100%;
+        margin: auto;
+    }
+    .outro{
+        width: 100%;
+        margin: auto;
+    }
+    .experience{
+        margin: auto 0;
+        flex-direction: column;
+    }
+    .experience-one{
+        margin-top: 20px;
+        flex-basis: auto;
+        flex-direction: column;
+    }
+}
+@media (max-width:688px){
+    .top-container{
+        padding-top: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .intro{
+        width: 80%;
+        margin: auto;
+    }
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .contact{
+        display: block;
+    }
+}

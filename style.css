@@ -52,7 +52,7 @@ h2{
 }
 #profile>img{
     border: 10px solid #112D4E;
-    height: 150px;
+    height: 250px;
     border-radius: 50%;
 }
 p{
@@ -80,7 +80,7 @@ p{
 }
 .experience-one > .svg{
     border-radius: 10px;
-    background-color: #6baaf1;
+    background-color: #90c0f7;
     width: 50px;
     height: 50px;
 }
@@ -194,10 +194,6 @@ a:hover{
     }
     h2{
         font-size: 1.5rem;
-    }
-    .intro{
-        width: 80%;
-        margin: auto;
     }
     .skill-container{
         display: flex;
